@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Todo } from '@/types';
+import { Todo } from '../types';
 import { Trash2, Pencil, Check, X } from 'lucide-react';
 import clsx from 'clsx';
 

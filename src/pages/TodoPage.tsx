@@ -1,8 +1,8 @@
-import { useTodos } from '@/hooks/useTodos';
-import TodoInput from '@/components/TodoInput';
-import TodoList from '@/components/TodoList';
-import TodoFilter from '@/components/TodoFilter';
-import TodoStats from '@/components/TodoStats';
+import { useTodos } from './hooks/useTodos';
+import TodoInput from './components/TodoInput';
+import TodoList from './components/TodoList';
+import TodoFilter from './components/TodoFilter';
+import TodoStats from './components/TodoStats';
 import { CheckSquare } from 'lucide-react';
 
 export default function TodoPage() {
